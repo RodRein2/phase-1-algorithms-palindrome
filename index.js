@@ -1,13 +1,18 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  return word === word.split('').reverse().join('');
 }
 
 /* 
   Add your pseudocode here
+  1. Enter input
+  2. Function will determine is stringg(word) is a palindrome
+  3. If input is palindrome, output will be true
+  4. If input is NOT palindrom, output will be false
 */
 
 /*
-  Add written explanation of your solution here
+Create a function that takes a string and will ggive 1 of 2 results
+Use boolean to get output of true or false
 */
 
 // You can run `node index.js` to view these console logs
